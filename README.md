@@ -17,13 +17,12 @@ Compliancy-IQ operates as an automated, multi-layered operations coordinator int
 
 ```mermaid
 graph TD
-    %% Définition du style général (Minimaliste Dark/White)
-    classDef default fill:#111,stroke:#333,stroke-width:1px,color:#fff,font-family:Inter;
-    classDef accent fill:#0066FF,stroke:#0066FF,stroke-width:1px,color:#fff,font-family:Inter;
+    classDef default fill:#111,stroke:#333,stroke-width:1px,color:#fff;
+    classDef accent fill:#0066FF,stroke:#0066FF,stroke-width:1px,color:#fff;
 
-    A[M365 Tenant / GTM Briefs] -->|1. Work IQ: Context Extraction| B(Local Regulations Graph)
-    B -->|2. Fabric IQ: Semantic Mapping| C(Copilot Chat Interface)
-    C -->|3. Autonomous Remediation: Clarity Brief| D[Decision-Ready Execution]
+    A[M365 Tenant / GTM Briefs] --> B(1. Work IQ: Context Extraction)
+    B --> C(2. Fabric IQ: Semantic Mapping)
+    C --> D[3. Autonomous Remediation: Clarity Brief]
 
     class D accent;
 
