@@ -10,30 +10,13 @@ Global Go-To-Market (GTM) product launches are high-stakes operations where exec
 **Compliancy-IQ** is a mission-critical infrastructure agent designed to secure international GTM deployments. Implemented as a native, no-code configuration within **Microsoft 365 Copilot**, it structuralizes the operational flow between global Headquarters (HQ) and local regional entities. Compliancy-IQ continuously audits launch readiness against local market regulations, turning cross-border operational complexity into immediate, decision-ready execution.
 
 ---
-
 ## ⚙️ Cross-Border Architecture & Multi-Step Reasoning
-
-Compliancy-IQ operates as an automated, multi-layered operations coordinator integrated directly within the enterprise M365 ecosystem, executing a strict 3-step compliance and supply chain loop without requiring traditional code deployment:
 
 ```mermaid
 graph TD
-    classDef default fill:#111,stroke:#333,stroke-width:1px,color:#fff;
-    classDef accent fill:#0066FF,stroke:#0066FF,stroke-width:1px,color:#fff;
-
-    A[M365 Tenant / GTM Briefs] --> B(1. Work IQ: Context Extraction)
-    B --> C(2. Fabric IQ: Semantic Mapping)
+    A[M365 Tenant / GTM Briefs] --> B[1. Work IQ: Context Extraction]
+    B --> C[2. Fabric IQ: Semantic Mapping]
     C --> D[3. Autonomous Remediation: Clarity Brief]
-
-    class D accent;
-
-1. **Cross-Border Context Extraction (Powered by Work IQ):**
-Upon specific user triggers or within designated GTM project spaces, the agent securely maps operational assets across the corporate tenant. It analyzes authorized GTM campaign briefs, localized product catalogs, visual merchandising planograms, and dedicated multi-country stakeholder threads (emails, Teams updates) to establish a unified operational timeline, strictly respecting corporate data privacy policies.
-
-2. **Semantic Regulatory Mapping (Powered by Fabric IQ):**
-Utilizing enterprise ontologies, Compliancy-IQ leverages **Fabric IQ** to map the company’s core operational structure (linking product lines, shipping destinations, and supply chain hubs). The agent then cross-references this semantic business matrix with a dynamically updated knowledge graph of local market regulations (consumer laws, advertising standards, and import constraints) to contextualize risk before it impacts delivery.
-
-3. **Autonomous Operations Remediation:**
-Instead of flagging generic errors, Compliancy-IQ uses multi-step reasoning to isolate the precise friction point. It delivers a prioritized **"Clarity Brief"** directly into Copilot Chat for Regional Operations Leads, citing the exact local legal source, mapping the supply chain impact, and recommending immediate, compliant workarounds (e.g., instant inventory reallocation or swift localized visual rotation adjustments).
 
 ---
 
