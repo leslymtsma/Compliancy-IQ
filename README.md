@@ -18,3 +18,31 @@ graph TD
     A[M365 Tenant / GTM Briefs] --> B[1. Work IQ: Context Extraction]
     B --> C[2. Fabric IQ: Semantic Mapping]
     C --> D[3. Autonomous Remediation: Clarity Brief]
+```
+
+1. **Cross-Border Context Extraction (Powered by Work IQ):**
+Upon specific user triggers or within designated GTM project spaces, the agent securely maps operational assets across the corporate tenant. It analyzes authorized GTM campaign briefs, localized product catalogs, visual merchandising planograms, and dedicated multi-country stakeholder threads (emails, Teams updates) to establish a unified operational timeline, strictly respecting corporate data privacy policies.
+
+2. **Semantic Regulatory Mapping (Powered by Fabric IQ):**
+Utilizing enterprise ontologies, Compliancy-IQ leverages **Fabric IQ** to map the company’s core operational structure (linking product lines, shipping destinations, and supply chain hubs). The agent then cross-references this semantic business matrix with a dynamically updated knowledge graph of local market regulations (consumer laws, advertising standards, and import constraints) to contextualize risk before it impacts delivery.
+
+3. **Autonomous Operations Remediation:**
+Instead of flagging generic errors, Compliancy-IQ uses multi-step reasoning to isolate the precise friction point. It delivers a prioritized **"Clarity Brief"** directly into Copilot Chat for Regional Operations Leads, citing the exact local legal source, mapping the supply chain impact, and recommending immediate, compliant workarounds:
+* **Finding:** The uploaded GTM visual layout for the Miami regional launch displays promotional pricing and product claims without the mandatory, localized state-level liability disclaimers required for retail storefront activations.
+* **Source:** Florida Deceptive and Unfair Trade Practices Act (FDUTPA) — FL Stat. § 501.204.
+* **Supply Chain Impact:** Distribution of localized Visual Merchandising (PLV) kits to Florida retail hubs is temporarily flagged to avoid immediate compliance penalties.
+
+---
+
+## 📊 Enterprise Value & Operational Impact
+* **Zero-Friction GTM Execution:** Eliminates regulatory blindness and human error during complex, simultaneous multi-country novelty cycles.
+* **Supply Chain Velocity:** Accelerates cross-departmental alignment (Legal, Operations, Marketing, and Supply Chain) from weeks to seconds, preventing costly launch delays.
+* **Grounded Operational Security:** Built with native permission enforcement via Microsoft IQ layers, guaranteeing 100% cited, verifiable answers directly anchored in corporate data and official legal frameworks—completely avoiding hallucination risks.
+
+---
+
+## 🛠️ Deployment Framework (No-Code Configuration)
+This agent is structured to be built natively within **Microsoft Copilot Studio**:
+* **Trigger:** Initiated by updates in the global GTM SharePoint repository or direct queries in Microsoft 365 Copilot.
+* **Knowledge Actions:** Leverages **Work IQ** for organizational memory and **Fabric IQ** for semantic ontologies mapping local customs and advertising laws.
+* **Output:** Delivers automated, native Microsoft Adaptive Cards ("Clarity Briefs") directly into the regional operations managers' Copilot Chat for immediate, clickable remediation.
