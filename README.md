@@ -15,13 +15,17 @@ Global Go-To-Market (GTM) product launches are high-stakes operations where exec
 
 Compliancy-IQ operates as an automated, multi-layered operations coordinator integrated directly within the enterprise M365 ecosystem, executing a strict 3-step compliance and supply chain loop without requiring traditional code deployment:
 
-[M365 Tenant / GTM Briefs] ──> (1. Work IQ: Context Extraction)
-│
-▼
-[Local Regulations Graph] ──> (2. Fabric IQ: Semantic Mapping)
-│
-▼
-[Copilot Chat Interface]  ──> (3. Autonomous Remediation: Clarity Brief)
+```mermaid
+graph TD
+    %% Définition du style général (Minimaliste Dark/White)
+    classDef default fill:#111,stroke:#333,stroke-width:1px,color:#fff,font-family:Inter;
+    classDef accent fill:#0066FF,stroke:#0066FF,stroke-width:1px,color:#fff,font-family:Inter;
+
+    A[M365 Tenant / GTM Briefs] -->|1. Work IQ: Context Extraction| B(Local Regulations Graph)
+    B -->|2. Fabric IQ: Semantic Mapping| C(Copilot Chat Interface)
+    C -->|3. Autonomous Remediation: Clarity Brief| D[Decision-Ready Execution]
+
+    class D accent;
 
 1. **Cross-Border Context Extraction (Powered by Work IQ):**
 Upon specific user triggers or within designated GTM project spaces, the agent securely maps operational assets across the corporate tenant. It analyzes authorized GTM campaign briefs, localized product catalogs, visual merchandising planograms, and dedicated multi-country stakeholder threads (emails, Teams updates) to establish a unified operational timeline, strictly respecting corporate data privacy policies.
