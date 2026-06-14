@@ -39,8 +39,8 @@ This empowers human leaders to instantly review the compliance gap, evaluate the
 * **Incident Detection:**
   * **Finding:** Missing mandatory state-level liability disclaimers for active storefront promotions and pricing claims in the Florida region.
   * **Grounded Legal Source:** Florida Deceptive and Unfair Trade Practices Act (FDUTPA) — FL Stat. § 501.204.
-  * **Supply Chain Impact:** Localized Visual Merchandising (VM) kits corresponding to this campaign at the "Le Vaudreuil" production plant are placed on a temporary, strict shipment hold to mitigate immediate compliance penalties and legal exposure.
-* **Human-in-the-Loop Resolution:** The Regional Operations Manager receives the Adaptive Card in Teams, clicks [Generate Alternatives] to automatically inject the missing localized legal text into the visual assets, and approves the remediation—releasing the inventory hold at the plant in 4 seconds.
+  * **Supply Chain Impact:** Localized Visual Merchandising (VM / PLV) kits corresponding to this campaign at the "Le Vaudreuil" production plant are placed on a temporary, strict shipment hold to mitigate immediate compliance penalties and legal exposure.
+* **Human-in-the-Loop Resolution:** The Regional Operations Manager receives the Adaptive Card in Teams, clicks [Generate Alternatives] to automatically inject the missing localized legal text into the visual assets (VM / PLV), and approves the remediation—releasing the inventory hold at the plant in 4 seconds.
 
 ---
 
